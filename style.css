@@ -66,7 +66,7 @@
     justify-content: center;
     gap: 10px;
     background-color: white;
-    width: 60vw;
+    width: 450px;
     height: 50px;
     margin: auto;
     border: 1px solid #b8b8b8;
@@ -93,5 +93,76 @@
     display: flex;
     gap: 10px;
     padding-right: 12px;
+
+}
+
+/* ---------------Center Section-------- */
+
+.center-items{
+ align-items: center;
+}
+.center-buttons{
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    
+}
+.center-buttons a{
+    background-color: #f0efef;
+    color: black;
+    padding: 6px;
+    text-decoration: none;
+    border: 1.5px solid white;
+    border-radius: 4px;
+}
+.center-buttons a:hover{
+    border: 1.5px solid gray;
+    border-radius: 4px;
+    box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+}
+
+/* --------------Languages------------ */
+.languages{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.country{
+    border-bottom: 1px solid rgb(177, 174, 174);
+    background-color: #e4e4e4;
+}
+.country-name{
+    padding: 20px;
+}
+
+/* ----------------Footer------------- */
+
+.footer-items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    background-color: #e4e4e4;
+    height: 50px;
+   
+}
+.footer-items a{
+    text-decoration: none;
+    color: black;
+}
+.about-google{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.google-terms{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
 
 }
