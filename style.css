@@ -3,6 +3,12 @@
     margin: 0;
     box-sizing: border-box;
 }
+body{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+
+}
 /* --------------------Mainues----------------------------- */
 .main-manue{
     height: 55px;
@@ -42,24 +48,24 @@
 
 /* ---------------goog logo----------- */
 
-.g-logo{
+.g-logo-div{
     margin: auto;
     text-align: center;
     background-color: aquamarine;
-    width: 100vw;
+    width: 100%;
     height: max-content;
 }
 .google-icon{
-    width: 30%;
+    width: 18%;
 }
 
-/* ---------------------Search --------------- */
+/* ---------------------Search inputs--------------- */
 
-.main-search-section{
+.search-inputs{
     text-align: center;
     background-color: rgb(91, 150, 99);
 }
-.search-section{
+.search-div{
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -72,31 +78,31 @@
     border: 1px solid #b8b8b8;
     border-radius: 50px;
 }
-.search-section:hover{
+.search-div:hover{
     box-shadow: 10px 10px 5px 12px lightblue;
 
 }
 
-.search, input{
+.search-inputTag-div, input{
     width: 100%;
     height: 100%;
     outline: none;
     border: none;
 }
-.search-section img{
+.search-div img{
     width: 20px;
 }
-.search-button{
+.search-icon{
     padding-left: 12px;
 }
-.sh-img-voice, .search-button{
+.sh-img-voice, .search-icon{
     display: flex;
     gap: 10px;
     padding-right: 12px;
 
 }
 
-/* ---------------Center Section-------- */
+/* ---------------center buttons------- */
 
 .center-items{
  align-items: center;
@@ -128,18 +134,29 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 28px;
+
 
 }
+/* -------------country-------- */
+
 .country{
     border-bottom: 1px solid rgb(177, 174, 174);
     background-color: #e4e4e4;
+    position:fixed;
+    bottom:50px;
+    width: 100vw;
 }
 .country-name{
     padding: 20px;
 }
 
 /* ----------------Footer------------- */
-
+footer {
+    position:fixed;
+    bottom:0;
+    width: 100vw;
+}
 .footer-items{
     display: flex;
     justify-content: center;
