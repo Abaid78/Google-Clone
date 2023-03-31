@@ -17,13 +17,13 @@ document.addEventListener("click", function(event) {
 // Add a click event listener to the show apps button
 apps_button.addEventListener("click", function(event) {
   // Toggle the display of the div apps
-  apps.style.display = apps.style.display === "none" ? "flex" : "none";
+  apps.style.display = apps.style.display === "flex" ?"none":"flex";
   // Prevent the click event from bubbling up to the document object
   event.stopPropagation();
 });
 setting_button.addEventListener("click", function(event) {
   // Toggle the display of the div apps using ternary operator
-  setting_manu.style.display = apps.style.display === "none" ? "flex" : "none";
+  setting_manu.style.display = apps.style.display === "flex" ? "none":"flex";
   event.stopPropagation();
 });
 
