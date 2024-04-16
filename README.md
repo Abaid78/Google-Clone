@@ -17,7 +17,7 @@ This project is a replica of the popular search engine Google, built using HTML,
 # Contributing
 If you would like to contribute to the Google Clone project, feel free to fork the repository and submit a pull request with your changes.
 git clone https://github.com/Abaid78/Google-Clone.git
-#View live!
+# View live!
 You can access the site at https://abaid78.github.io/Google-Clone/
 
 Feel free to check it out and give us your feedback!
